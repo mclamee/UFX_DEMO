@@ -3,8 +3,8 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="resource"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="F:/UFX/trunk/Documents/D4.Manuals/开发包资料/dev/t2sdk_java/Project/lib/com.hundsun.t2sdk-ext-1.1.13.jar"/>
-	<classpathentry kind="lib" path="F:/UFX/trunk/Documents/D4.Manuals/开发包资料/dev/t2sdk_java/Project/lib/commons-codec-1.4.jar"/>
-	<classpathentry kind="lib" path="F:/UFX/trunk/Documents/D4.Manuals/开发包资料/dev/t2sdk_java/Project/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/com.hundsun.t2sdk-ext-1.1.13.jar"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
