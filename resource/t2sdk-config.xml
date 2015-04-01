@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<t2sdk-configuration>
+	<performance   heartbeatTime="400"
+		           acquireConnWaitTime="5000"  registerTime="15" reconnInterval="3"
+		           localServerName="ufx_test"   callBackTime="5000" enmCompress="true" />
+    <parents>    
+		<parent  parentName="ufx" safeLevel="SSL">
+		<ssl protocol="SSL"   keyManageAlgorithm="SunX509"
+				trustManageAlgorithm="SunX509" keyStoreType="jks"
+				trustKeyStoreType="jks" keyCertFile="classpath:c20121011.pfx"
+				keyCertPwd="111111" />
+		
+			<limit licenseFile="classpath:(20130306)tyjrnb-TYJRTYJR-ALL-0001_3rd.dat" encrypt="HSBlowfish" />
+			<members>
+				<member no="5" address="117.78.3.150" port="6006"
+				  charset="gbk" poolSize="1" />
+			</members>
+		</parent>	
+	</parents>
+	<callBackMethods>
+		<method id="0" className="demo.CallBack" />
+	</callBackMethods>
+</t2sdk-configuration>
